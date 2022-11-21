@@ -29,8 +29,8 @@ function insertNewRecord(data) {
     cell3 = newRow.insertCell(2);
     cell3.innerHTML = data.salary;
     cell4 = newRow.insertCell(3);
-    cell4.innerHTML = `<button class="btn btn-danger" onClick="onEdit(this)">Edit</button>
-                        <button class="btn btn-danger" onClick="onDelete(this)">Hapus</button>`;
+    cell4.innerHTML = `<button class="btn btn-danger btn-xs" onClick="onEdit(this)">Edit</button>
+                        <button class="btn btn-danger btn-xs" onClick="onDelete(this)">Hapus</button>`;
 }
 
 function resetForm() {
