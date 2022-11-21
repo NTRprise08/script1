@@ -30,6 +30,7 @@ function insertNewRecord(data) {
     cell3.innerHTML = data.salary;
     cell4 = newRow.insertCell(3);
     cell4.innerHTML = `<button class="btn btn-danger btn-xs" onClick="onEdit(this)">Edit</button>
+                         <br/><br/>
                         <button class="btn btn-danger btn-xs" onClick="onDelete(this)">Hapus</button>`;
 }
 
