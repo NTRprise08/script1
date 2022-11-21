@@ -29,7 +29,7 @@ function insertNewRecord(data) {
     cell3 = newRow.insertCell(2);
     cell3.innerHTML = data.salary;
     cell4 = newRow.insertCell(3);
-    cell4.innerHTML = `<a class="btn btn-danger btn-xs" onClick="onEdit(this">Edit</a>
+    cell4.innerHTML = `<a onClick="onEdit(this)" class="btn btn-danger btn-xs" >Edit</a>
 
                        <a onClick="onDelete(this)">Delete</a>`;
 }
